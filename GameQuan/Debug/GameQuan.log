@@ -1,0 +1,23 @@
+﻿Build started 9/20/2025 9:49:46 AM.
+     1>Project "C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\GameQuan\GameQuan.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"stdafx.h" /Fp"Debug\GameQuan.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"stdafx.h" /Fp"Debug\GameQuan.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\main.cpp(9): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\main.cpp(9): warning C4566: character represented by universal-character-name '\u1EDF' cannot be represented in the current code page (1252)
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\main.cpp(9): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\main.cpp(24): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\main.cpp(24): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\main.cpp(24): warning C4566: character represented by universal-character-name '\u1EED' cannot be represented in the current code page (1252)
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\main.cpp(24): warning C4566: character represented by universal-character-name '\u1ED5' cannot be represented in the current code page (1252)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\Debug\GameQuan.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\Debug\GameQuan.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\Debug\GameQuan.lib" /MACHINE:X86 Debug\main.obj
+         Debug\stdafx.obj
+         GameQuan.vcxproj -> C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\Debug\GameQuan.exe
+     1>Done Building Project "C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\GameQuan\GameQuan.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.01
