@@ -57,5 +57,39 @@ bool Window::init() {
 	return true;
 }
 
+SDL_Renderer *Window::getRenderer() const
+{
+	return this -> renderer;
+}
+
+void Window::present() const
+{
+	SDL_RenderPresent (this -> renderer);
+}
+
+void Window :: clear() const 
+{
+	SDL_SetRenderDrawColor (renderer, 0, 164, 69, 255);
+	SDL_RenderClear(this -> renderer);
+}
+
+void Window::free() 
+{
+	if (this -> renderer != NULL)
+	{
+		SDL_DestroyRenderer(this -> renderer);
+		this->renderer = NULL;
+	}
+	if (this -> window != NULL)
+	{
+		SDL_DestroyWindow(this -> window);
+		this -> window = NULL;
+	}
+
+}
+
+
+
+
 
 
