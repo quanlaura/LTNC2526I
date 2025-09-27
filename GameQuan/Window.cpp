@@ -1,4 +1,5 @@
 #include "Window.h"
+#include "stdafx.h"
 
 Window::Window() {
 	this -> window = NULL;

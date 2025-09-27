@@ -1,6 +1,7 @@
 #include "AssetManager.h"
 #include "Settings.h"
 #include "Window.h"
+#include "stdafx.h"
 
 extern Window *gWindow;
 
