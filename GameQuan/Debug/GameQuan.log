@@ -1,9 +1,9 @@
-﻿Build started 9/26/2025 1:58:10 PM.
+﻿Build started 9/27/2025 8:24:48 AM.
      1>Project "C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\GameQuan\GameQuan.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"stdafx.h" /Fp"Debug\QuanUET.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"stdafx.h" /Fp"Debug\QuanUET.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AssetManager.cpp main.cpp Window.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"stdafx.h" /Fp"Debug\QuanUET.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AssetManager.cpp Button.cpp GUIComponent.cpp main.cpp Window.cpp
          Window.cpp
      1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(1): warning C4627: '#include "Window.h"': skipped when looking for precompiled header use
                  Add directive to 'stdafx.h' or rebuild precompiled header
@@ -17,6 +17,12 @@
      1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(9): error C2653: 'Window' : is not a class or namespace name
      1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(9): fatal error C1903: unable to recover from previous error(s); stopping compilation
          main.cpp
+         GUIComponent.cpp
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\guicomponent.cpp(1): warning C4627: '#include "GUIComponent.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\guicomponent.cpp(30): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Button.cpp
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\button.cpp(1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
          AssetManager.cpp
      1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(1): warning C4627: '#include "AssetManager.h"': skipped when looking for precompiled header use
                  Add directive to 'stdafx.h' or rebuild precompiled header
@@ -36,4 +42,4 @@
 
 Build FAILED.
 
-Time Elapsed 00:00:00.97
+Time Elapsed 00:00:01.22
