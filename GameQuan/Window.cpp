@@ -1,5 +1,5 @@
-#include "Window.h"
 #include "stdafx.h"
+#include "Window.h"
 
 Window::Window() {
 	this -> window = NULL;
@@ -52,7 +52,7 @@ bool Window::init() {
 	}
 	if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0 )
 	{
-		std::cout << "SDL_Mixer could not initialize! SDL_mixer Error: " << Mix_GetError() << stdl::endl;
+		std::cout << "SDL_Mixer could not initialize! SDL_mixer Error: " << Mix_GetError() << std::endl;
 		return false;
 	}
 	return true;

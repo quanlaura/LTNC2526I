@@ -1,45 +1,35 @@
-﻿Build started 9/27/2025 8:24:48 AM.
-     1>Project "C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\GameQuan\GameQuan.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 10/7/2025 12:15:59 AM.
+     1>Project "C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\GameQuan\GameQuan.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"stdafx.h" /Fp"Debug\QuanUET.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"stdafx.h" /Fp"Debug\QuanUET.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AssetManager.cpp Button.cpp GUIComponent.cpp main.cpp Window.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"stdafx.h" /Fp"Debug\QuanUET.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AI.cpp AssetManager.cpp Board.cpp Button.cpp GUIComponent.cpp Game.cpp GameScreen.cpp StartScreen.cpp Window.cpp main.cpp
          Window.cpp
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(1): warning C4627: '#include "Window.h"': skipped when looking for precompiled header use
-                 Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(4): error C2653: 'Window' : is not a class or namespace name
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(5): error C2355: 'this' : can only be referenced inside non-static member functions
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(5): error C2227: left of '->window' must point to class/struct/union/generic type
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(6): error C2355: 'this' : can only be referenced inside non-static member functions
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(6): error C2227: left of '->renderer' must point to class/struct/union/generic type
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(7): warning C4508: 'Window' : function should return a value; 'void' return type assumed
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(9): error C2653: 'Window' : is not a class or namespace name
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(9): fatal error C1903: unable to recover from previous error(s); stopping compilation
-         main.cpp
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(39): error C2660: 'SDL_SetRenderDrawColor' : function does not take 4 arguments
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(55): error C2653: 'stdl' : is not a class or namespace name
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\window.cpp(55): error C2065: 'endl' : undeclared identifier
+         StartScreen.cpp
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\gamescreen.h(7): fatal error C1083: Cannot open include file: 'StateManager.h': No such file or directory
+         GameScreen.cpp
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\gamescreen.h(7): fatal error C1083: Cannot open include file: 'StateManager.h': No such file or directory
+         Game.cpp
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\gamescreen.h(7): fatal error C1083: Cannot open include file: 'StateManager.h': No such file or directory
          GUIComponent.cpp
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\guicomponent.cpp(1): warning C4627: '#include "GUIComponent.h"': skipped when looking for precompiled header use
-                 Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\guicomponent.cpp(30): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
          Button.cpp
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\button.cpp(1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Board.cpp
          AssetManager.cpp
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(1): warning C4627: '#include "AssetManager.h"': skipped when looking for precompiled header use
-                 Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(2): warning C4627: '#include "Settings.h"': skipped when looking for precompiled header use
-                 Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(3): warning C4627: '#include "Window.h"': skipped when looking for precompiled header use
-                 Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(6): error C2143: syntax error : missing ';' before '*'
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(8): error C2653: 'AssetManager' : is not a class or namespace name
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(11): warning C4508: 'AssetManager' : function should return a value; 'void' return type assumed
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(13): error C2653: 'AssetManager' : is not a class or namespace name
-     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(13): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\assetmanager.cpp(40): error C2677: binary '[' : no global operator found which takes type 'const std::string' (or there is no acceptable conversion)
+         AI.cpp
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\ai.cpp(89): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\ai.cpp(132): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\ai.cpp(192): error C2059: syntax error : '{'
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\ai.cpp(192): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\ai.cpp(192): error C2143: syntax error : missing ';' before '}'
          Generating Code...
-     1>Done Building Project "C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\GameQuan\GameQuan.vcxproj" (Rebuild target(s)) -- FAILED.
+         Compiling...
+         main.cpp
+     1>c:\users\admin\downloads\vs 2012\vs 2012\quanuet\gamequan\gamescreen.h(7): fatal error C1083: Cannot open include file: 'StateManager.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\ADMIN\Downloads\VS 2012\VS 2012\QuanUET\GameQuan\GameQuan.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:01.22
+Time Elapsed 00:00:03.89

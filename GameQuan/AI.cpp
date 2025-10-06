@@ -1,4 +1,6 @@
+#include "stdafx.h"
 #include "AI.h"
+
 #include <limits>
 #include <algorithm>
 #include <vector>
@@ -84,7 +86,7 @@ int GomokuAI::quickEvaluate(int board[BOARD_WIDTH][BOARD_HEIGHT], int x, int y)
 	opponentScore = evaluatePosition(board, x, y, O_CELL);
 	board[x][y] = EMPTY_CELL;
 
-	return aiScore + opponentScore * 0.8;
+	return aiScore + (int) opponentScore * 0.8;
 }
 
 // Ham ho tro tinh diem cho nguoi choi tai vi tri (x, y)
@@ -127,7 +129,7 @@ int GomokuAI::evaluatePosition(int board[BOARD_WIDTH][BOARD_HEIGHT], int x, int 
 		else if (count == 3) score += (openEnds[0] && openEnds[1]) ? 500 : 100;
 		else if (count == 2) score += (openEnds[0] && openEnds[1]) ? 50 : 10;
 	}
-	return (player == X_CELL) ? score : score * 1.2;
+	return (player == X_CELL) ? score : (int) score * 1.2;
 }
 
 int GomokuAI::minimax(int board[BOARD_WIDTH][BOARD_HEIGHT], int depth, int alpha, int beta, bool isMaximizing)
@@ -187,7 +189,7 @@ pair<int, int> GomokuAI::bestMove(int board[BOARD_WIDTH][BOARD_HEIGHT])
 	vector<pair<int, int>> moves;
 	getPossibleMoves(board, moves);
 
-	if (moves.empty()) return {-1, -1};
+	if (moves.empty()) return std::make_pair(-1, -1);
 
 	//check win move
 	for (const auto& move: moves)
