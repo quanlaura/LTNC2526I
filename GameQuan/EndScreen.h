@@ -1,0 +1,22 @@
+#pragma once
+
+#include<functional>
+#include "GameScreen.h"
+
+extern bool gQuit;
+
+class EndScreen : public GameScreen
+{
+public:
+	EndScreen(StateManager* stateManager);
+	~EndScreen();
+	void handleEvent(const SDL_Event& event);
+	void renderScreen();
+	void updateScreen(float deltatime);
+
+private:
+	void createGUI();
+	void goToMenu();
+	void goToGame();
+	double timePauseMusic;
+};

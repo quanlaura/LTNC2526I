@@ -54,6 +54,30 @@
     <ClInclude Include="StartScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AboutScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePVE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePVP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PveEndScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PveSettingScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -87,6 +111,30 @@
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StartScreen.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutScreen.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScreen.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePVE.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePVP.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PveEndScreen.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PveSettingScreen.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingScreen.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
